@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+
+
+<!-- Main
+    ===================
+    Project Name: INFO151_HW4_hmd56
+    Project Description: Redesign the 'Home' Webpages of Homework 4 for Cinema's project.
+    Date: 13 June 2021
+    Author: Hieu Dang
+
+    =====================
+-->
+
+<!-- HOMEPAGE-->
+
+
+<html lang="en-US">
+    <head>
+        <title> Home_CGVCinema_INFO151_HW4_hmd56 </title>
+        <link href="style_hmd56.css" rel="stylesheet">
+        <script src="function_hmd56.js"> </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    </head>
+
+
+    <body>
+        <p> </p>
+        <nav id="top_left_corner">
+            <a href="https://www.cgv.vn/default/customer/account/login/referer/aHR0cHM6Ly93d3cuY2d2LnZuL2RlZmF1bHQvc2FsZXMvb3JkZXIvaGlzdG9yeS8,/"> MY TICKETS</a> |
+            <a href="https://www.cgv.vn/default/careers"> RECRUITMENT</a> |
+            <a href="https://www.cgv.vn/default/customer/account/login/referer/aHR0cHM6Ly93d3cuY2d2LnZuL2RlZmF1bHQvY3VzdG9tZXIvYWNjb3VudC9pbmRleC8,/">SIGN IN/SIGN UP</a> |
+        </nav>
+        <p> </p>
+        <hr class="border1">
+
+
+        <div class="inline_logo">
+            <img id="logo" src="cgv_logo.png" alt="CGV Logo">
+            <span id="logo_text"> 
+                <span style="color:red;"> CJ GOLDEN VILLAGE GROUP &nbsp;</span>
+                <a href="https://www.cgv.vn/default/movies/coming-soon-1.html" target="_blank" style="font-size: 25px;"> &nbsp;        || Special Movies ||</a>
+                <a href="https://www.cgv.vn/default/cgv-membership" target="_blank" style="font-size: 25px;"> CGV Membership || </a>
+                &nbsp; <span style="font-size: 25px;">Our Business</span> &nbsp; || &nbsp;
+            </span>
+    
+        </div>
+
+        <p></p>
+        <hr class="border1">
+
+        <p></p>
+        <p></p>
+        
+        <!-- hmd56: #5c Utilize onlick Attribute to caall javascript function and welcome guess   -->
+        <button onclick="WelcomeGuess()"> Welcome Guess! Click Here for Special Offers</button>
+
+        <p></p>
+
+        <div class="container">
+            <img src="https://media-exp1.licdn.com/dms/image/C561BAQG7EBOQ4YIgFw/company-background_10000/0/1519800251267?e=2159024400&v=beta&t=nIyGEGNgztyPbvFv0rnc4H6zEEc4YieH6es_1r801_A" 
+                    alt="background" style="width:100%;">
+
+            
+
+            <!-- hmd56: #3 Block Area to choose which navigation users want to visit-->
+                <div>
+                    <button class="bottom_left" onclick="KnowMoreCompany()"> 
+                        <h4> KNOW MORE ABOUT US</h4>
+                        <p> More Information about CGV Company</p>
+                    </button>
+                    
+                </div>
+
+                <div >
+                    <button class="bottom_right" onclick="KnowMoreMovies()">
+                        <h4>MOVIES SELECTIONS</h4>
+                        <p> More New Movies and Tickets Price</p>
+                    </button>
+                </div>
+
+        </div>
+
+
+        
+
+
+           
+
+        
+
+
+    </body>
+
+
+</html>
+
